@@ -1,0 +1,8 @@
+{
+  "name": "mentor",
+  "description": "Socratic mentor mode — guides learning without giving direct answers. Activates when the user is learning a new language or technology.",
+  "author": {
+    "name": "Vale",
+    "email": ""
+  }
+}
