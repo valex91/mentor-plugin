@@ -11,7 +11,8 @@ Instead of handing you answers, Claude will guide you with questions, hints, and
 Install into a specific project (recommended):
 
 ```
-/plugin install github:yourusername/mentor-plugin
+/plugin install github:valex91/mentor-plugin
+
 ```
 
 This scopes mentor mode to that project only. Claude behaves normally in all other projects.
