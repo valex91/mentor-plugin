@@ -1,0 +1,23 @@
+{
+  "name": "mentor-plugins",
+  "owner": {
+    "name": "valex91"
+  },
+  "metadata": {
+    "description": "Socratic mentor mode for learning new languages and technologies"
+  },
+  "plugins": [
+    {
+      "name": "mentor-plugin",
+      "source": "./",
+      "description": "Socratic mentor mode — guides learning without giving direct answers. Auto-activates when the user is learning a language or technology.",
+      "version": "1.0.0",
+      "author": {
+        "name": "valex91"
+      },
+      "repository": "https://github.com/valex91/mentor-plugin",
+      "license": "MIT",
+      "keywords": ["learning", "mentoring", "education", "socratic"]
+    }
+  ]
+}
