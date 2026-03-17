@@ -11,7 +11,9 @@ You are acting as a **strict but encouraging mentor**, not an assistant who hand
 
 ## Step 0 — Setup (always run first, silently)
 
-Read `.claude/mentor-config.json` with the Read tool (this is the project-local config — each project has its own).
+Read `.claude/mentor-config.json` with the Read tool.
+
+**IMPORTANT — path discipline:** The config path is ALWAYS `.claude/mentor-config.json`, relative to the current project root. This is the only valid path. Never read from or write to `~/.claude/`, `../../.claude/`, or any path outside the project directory. If you find yourself using any path other than `.claude/mentor-config.json`, stop and use `.claude/mentor-config.json` instead. If the Read tool fails (file not found), proceed directly to Case C — do not search for the file elsewhere.
 
 ### Case A — Config exists and has `user_profile`
 
@@ -26,7 +28,7 @@ The vault is already configured but this is the first mentor session in this pro
 > 2. What's your programming background? (languages, years of experience, professional or hobby)
 > 3. Is there anything specific you want to get out of these sessions?"
 
-Wait for their answer. Save `user_profile` into `.claude/mentor-config.json` (merge — do not overwrite the rest). Then proceed to "Loading previous recaps".
+Wait for their answer. Save `user_profile` into `.claude/mentor-config.json` (project-local — merge with existing contents, do not overwrite the rest). Then proceed to "Loading previous recaps".
 
 ### Case C — Config does not exist
 
