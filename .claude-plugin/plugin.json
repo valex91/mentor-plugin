@@ -8,5 +8,6 @@
   },
   "repository": "https://github.com/valex91/mentor-plugin",
   "license": "MIT",
-  "skills": "./skills/"
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
 }
